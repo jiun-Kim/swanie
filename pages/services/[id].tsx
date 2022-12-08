@@ -3,11 +3,13 @@ import BandText from "../../components/BandText";
 import ContactCard from "../../components/ContactCard";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import HeadTitle from "../../components/HeadTitle";
 
 const CarpetSteamCleaning = () => {
   const router = useRouter();
   return (
     <div>
+      <HeadTitle title="Service" />
       <Header />
       <BandText text={router.query.id + ""} />
       <div className=" relative flex items-center overflow-scroll py-10">

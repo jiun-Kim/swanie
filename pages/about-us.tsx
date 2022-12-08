@@ -4,10 +4,12 @@ import initial from "../public/initial.jpg";
 
 import BandText from "../components/BandText";
 import ContactCard from "../components/ContactCard";
+import HeadTitle from "../components/HeadTitle";
 
 const AboutUs = () => {
   return (
     <div>
+      <HeadTitle title="About Us" />
       <Header />
       <BandText text="About Us" />
       <section className=" w-full max-w-7xl mx-auto py-40">

@@ -7,10 +7,12 @@ import ContactBtn from "../components/ContactBtn";
 import Footer from "../components/Footer";
 import ContactCard from "../components/ContactCard";
 import ServiceGrid from "../components/ServiceGrid";
+import HeadTitle from "../components/HeadTitle";
 
 const Home = () => {
   return (
     <div>
+      <HeadTitle title="Home" />
       <Header />
       <ContactBtn />
       <div className=" relative flex items-center">

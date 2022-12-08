@@ -1,11 +1,13 @@
 import BandText from "../../components/BandText";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import HeadTitle from "../../components/HeadTitle";
 import ServiceGrid from "../../components/ServiceGrid";
 
 const services = () => {
   return (
     <div>
+      <HeadTitle title="Services" />
       <Header />
       <BandText text="Services" />
       <div className="pb-20 px-4">

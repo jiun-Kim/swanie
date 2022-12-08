@@ -1,6 +1,11 @@
+import Link from "next/link";
+
 const ContactBtn = () => {
   return (
-    <div className="flex cursor-pointer fixed z-20 top-62 right-3 hover:bg-gray-400 items-center self-center p-3 bg-[#00173d] text-white rounded-full lg:rounded-lg space-x-1">
+    <Link
+      href="/contact-us"
+      className="flex cursor-pointer fixed z-20 top-62 right-3 hover:bg-gray-400 items-center self-center p-3 bg-[#00173d] text-white rounded-full lg:rounded-lg space-x-1"
+    >
       <svg
         className="w-6 h-6"
         fill="none"
@@ -16,7 +21,7 @@ const ContactBtn = () => {
         ></path>
       </svg>
       <span className="xl:flex hidden">Request A Quote</span>
-    </div>
+    </Link>
   );
 };
 
